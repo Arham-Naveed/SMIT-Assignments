@@ -1,47 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table</title>
+    <style>
+        .thead {
+            min-width: 20px;
+            border: 2px #000 solid;
+        }
+    </style>
 </head>
-<body>
-    
+
+<body style="margin: auto; width: fit-content;">
+
     <div style="text-align: center;">
         <h2>Ian's Time table</h2>
     </div>
-    <div>
-        <thead>
-            <tr >
-                <td >as</td>
-                <td></td>
-                <td>Morning</td>
-                <td>Lunch</td>
-                <td>afternoon</td>
-                <td>evening</td>
-                
-            </tr>
-        </thead>
-    </div>
-    <tbody>
+    <table style="border: 2px solid black; margin-top:30px">
         <tr>
-            <td></td>
-            <td></td>
-            <td>9-10am</td>
-            <td>10-11am</td>
-            <td>11-12am</td>
-            <td>1-2pm</td>
-            <td>2-3pm</td>
-            <td>3-4pm</td>
-            <td>4-5pm</td>
-            <td>5-6pm</td>
-            <td>6-7pm</td>
-            <td>7-8pm</td>
-            <td>8-9pm</td>
+            <th class="thead"></th>
+            <th class="thead"></th>
+            <th class="thead" colspan="3">Morning</th>
+            <th class="thead">Lunch</th>
+            <th class="thead" colspan="4">Afternoon</th>
+            <th class="thead" colspan="3">Evening</th>
         </tr>
         <tr>
-            <td></td>
+            <td class="thead"><center></center></td>
+            <td class="thead"><center></center></td>
+            <td class="thead"><center>9-10am</center></td>
+            <td class="thead"><center>10-11am</center></td>
+            <td class="thead"><center>11-12pm</center></td>
+            <td class="thead"><center>1-2pm</center></td>
+            <td class="thead"><center>2-3pm</center></td>
+            <td class="thead"><center>3-4pm</center></td>
+            <td class="thead"><center>4-5pm</center></td>
+            <td class="thead"><center>5-6pm</center></td>
+            <td class="thead"><center>6-7pm</center></td>
+            <td class="thead"><center>7-8pm</center></td>
+            <td class="thead"><center>8-9pm</center></td>
         </tr>
-    </tbody>
+        <tr>
+            <td class="thead" rowspan="2"><center>Work</center></td>
+            <td class="thead"><center>Monday</center></td>
+            <td class="thead" colspan="3"><center>Development<br>Meeting</center></td>
+            <td class="thead"><center></center></td>
+            <td class="thead" colspan="3"><center>Client Meeting</center></td>
+            <td class="thead" ><center>Commute</center></td>
+            <td class="thead" colspan="3"><center>Free</center></td>
+        </tr>
+        <tr>
+            <td class="thead"><center>Tuesday</center></td>
+            <td class="thead" colspan="3"><center>In office</center></td>
+            <td class="thead" ></td>
+            <td class="thead" colspan="7"><center>In Office</center></td>
+        </tr>
+        <tr>
+            <td class="thead" rowspan="2"><center>Lecture</center></td>
+            <td class="thead"><center>Wednesday</center></td>
+            <td class="thead" colspan="3"><center>CSC205</center></td>
+            <td class="thead"></td>
+            <td class="thead" colspan="12"><center>Preparation</center></td>
+        </tr>
+        <tr>
+            <td class="thead"><center>Thursday</center></td>
+            <td class="thead" colspan="3"><center>MAM200</center></td>
+            <td class="thead"><center></center></td>
+            <td class="thead"><center>Tutorials <br> for <br> MAM200</center></td>
+            <td class="thead" colspan="12"><center>Free</center></td>
+        </tr>
+        <tr>
+            <td class="thead"><center>Research</center></td>
+            <td class="thead"><center>Friday</center></td>
+            <td class="thead" colspan="3"><center>Research</center></td>
+            <td class="thead"></td>
+            <td class="thead" colspan="12"><center>Research</center></td>
+        </tr>
+    </table>
 </body>
+
 </html>
