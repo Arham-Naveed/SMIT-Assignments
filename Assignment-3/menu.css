@@ -1,0 +1,70 @@
+body {
+    background-image: url(Assets/texture.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+.logo {
+    text-align: center;
+    width: ;
+    border-radius: 10px;
+
+
+}
+
+.navigation {
+    text-align: center;
+    border: 2px black solid;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.home {
+    margin: 80px;
+    font-size: 25px;
+    color: white;
+}
+
+.menu {
+    margin: 80px;
+    font-size: 25px;
+    color: white;
+}
+
+.about {
+    margin: 80px;
+    font-size: 25px;
+    color: white;
+}
+
+.timings {
+    margin: 80px;
+    font-size: 25px;
+    color: white;
+}
+
+.contact {
+    margin: 80px;
+    font-size: 25px;
+    color: white;
+}
+
+.menu{ text-align: right;
+
+}
+
+.burger1{ text-align: center; height: 200px;}
+.burger2{text-align: center;height: 200px;}
+.pizza1{text-align: center;height: 200px;}
+.pizza2{text-align: center;height: 200px;}
+
+.copywrite {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}

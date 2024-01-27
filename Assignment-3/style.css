@@ -1,0 +1,98 @@
+body {
+    background-image: url(Assets/texture.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+.logo {
+    text-align: center;
+    width: ;
+    border-radius: 10px;
+
+
+}
+
+.navigation {
+    text-align: center;
+    border: 2px black solid;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.home {
+    margin: 80px;
+    font-size: 25px;
+    color: white;
+}
+
+.menu {
+    margin: 80px;
+    font-size: 25px;
+    color: white;
+}
+
+.about {
+    margin: 80px;
+    font-size: 25px;
+    color: white;
+}
+
+.timings {
+    margin: 80px;
+    font-size: 25px;
+    color: white;
+}
+
+.contact {
+    margin: 80px;
+    font-size: 25px;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    margin: 50px;
+    color: aliceblue;
+}
+
+.image {
+    margin: 60px;
+}
+
+.first {
+    height: 380px;
+    margin: 30px;
+}
+
+.second {
+    height: 380px;
+    margin: 30px;
+}
+
+.third {
+    height: 380px;
+    margin: 30px;
+}
+
+.fourth {
+    height: 380px;
+    margin: 30px;
+}
+
+.button {
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+
+}
+
+.copywrite {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
