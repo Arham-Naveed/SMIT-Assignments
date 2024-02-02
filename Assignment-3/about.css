@@ -54,45 +54,24 @@ body {
     color: white;
 }
 
-h2 {
-    text-align: center;
-    margin: 50px;
-    color: aliceblue;
-}
 
-.image {
-    margin: 60px;
-}
 
-.first {
-    height: 380px;
-    margin: 30px;
-}
-
-.second {
-    height: 380px;
-    margin: 30px;
-}
-
-.third {
-    height: 380px;
-    margin: 30px;
-}
-
-.fourth {
-    height: 380px;
-    margin: 30px;
-}
-
-.button {
-    text-align: center;
-    font-size: 30px;
-    color: white;
-
-}
 
 .copywrite {
     text-align: center;
     color: white;
     font-size: 25px;
+}
+
+.head {
+    color: white;
+    text-align: center;
+
+}
+
+.para {
+    color: white;
+
+
+    text-align: center;
 }

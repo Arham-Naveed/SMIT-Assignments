@@ -54,14 +54,55 @@ body {
     color: white;
 }
 
-.menu{ text-align: right;
+
+
+
+.menu {
+    text-align: right;
 
 }
 
-.burger1{ text-align: center; height: 200px;}
-.burger2{text-align: center;height: 200px;}
-.pizza1{text-align: center;height: 200px;}
-.pizza2{text-align: center;height: 200px;}
+h2 {
+    color: white;
+    text-align: center;
+}
+
+#burger1 {
+
+    height: 300px;
+
+    margin-left: 50px;
+}
+
+#burger2 {
+
+    height: 300px;
+
+    margin-left: 50px;
+}
+
+#burger3 {
+    height: 300px;
+    margin-left: 50px;
+
+}
+
+#pizza1 {
+
+    height: 300px;
+    margin-left: 5px;
+}
+
+#pizza2 {
+
+    height: 300px;
+    margin-left: 5px;
+}
+
+#pizza3 {
+    height: 300px;
+
+}
 
 .copywrite {
     text-align: center;
