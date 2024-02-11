@@ -1,5 +1,435 @@
-#navigation{ }
-#logo{ height: 10px; text-align: left;
+/* NAV BAR */
+
+li {
+    display: inline-block;
 }
-strong{  }
-#bar{ text-align: right; font-display: normal ;}
+
+li img {
+    position: absolute;
+    top: 20px;
+    height: 45px;
+}
+
+li h1 {
+    position: absolute;
+    top: 12px;
+    left: 110px;
+}
+
+li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.home {
+    position: absolute;
+    top: 17px;
+    left: 300px;
+}
+
+.fruit {
+    position: absolute;
+    top: 34px;
+    left: 700px;
+}
+
+.service {
+    position: absolute;
+    top: 37;
+    left: 800px;
+}
+
+.contact {
+    position: absolute;
+    top: 45;
+    left: 900px;
+}
+
+.search {
+    position: absolute;
+    top: 35px;
+    right: 200px;
+}
+
+.button {
+    position: absolute;
+    left: 100px;
+    top: 1px;
+    border: 2px grey solid;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    background-color: orange;
+
+}
+
+/* Hero Section */
+#herofirst {
+    display: inline-block;
+    width: 45%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 200px;
+}
+
+#herosecond {
+    display: inline-block;
+    width: 45%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 130px;
+    left: 600px;
+}
+
+.firstb {
+    height: 50px;
+    width: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    background-color: orange;
+    display: inline-block;
+}
+
+.firstb a {
+    text-decoration: none;
+    color: white;
+}
+
+.secondb {
+    height: 50px;
+    width: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    display: inline-block;
+}
+
+.secondb a {
+    text-decoration: none;
+    color: white;
+}
+
+.head {
+    position: absolute;
+    top: 600px;
+    text-align: center;
+    left: 450px;
+}
+
+.service1 {
+    position: absolute;
+    top: 800px;
+    text-align: center;
+    left: 10px;
+    width: 30%;
+    border: 2px grey solid;
+}
+
+.service2 {
+    position: absolute;
+    top: 800px;
+    text-align: center;
+    left: 430px;
+    width: 30%;
+    border: 2px grey solid;
+}
+
+.service3 {
+    position: absolute;
+    top: 800px;
+    text-align: center;
+    left: 850px;
+    width: 30%;
+    border: 2px grey solid;
+}
+
+.service2 img {
+    height: 60px;
+}
+
+.service3 img {
+    height: 60px;
+}
+
+.readmore {
+    position: absolute;
+    top: 1000px;
+    left: 570px;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    display: inline-block;
+}
+
+.readmore a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.fruithead {
+    text-align: center;
+    position: absolute;
+    top: 1100px;
+    left: 350px;
+}
+
+.fruit1 {
+    text-align: center;
+    position: absolute;
+    top: 1200px;
+    left: 10px;
+    width: 70%;
+}
+
+.fruit1image {
+    position: absolute;
+    top: 1200px;
+    right: 1px;
+}
+
+.fruit1buy {
+    position: absolute;
+    top: 1300px;
+    left: 400px;
+
+    height: 50px;
+    width: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+}
+
+.fruit1buy a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Fruit2 */
+.fruit2 {
+    text-align: center;
+    position: absolute;
+    top: 1500px;
+    left: 10px;
+    width: 70%;
+}
+
+.fruit2image {
+    position: absolute;
+    top: 1400px;
+    right: 10px;
+}
+
+.fruit2button {
+    position: absolute;
+    top: 1600px;
+    left: 400px;
+
+    height: 50px;
+    width: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+}
+
+.fruit2button a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Fruit3 */
+.fruit3 {
+    text-align: center;
+    position: absolute;
+    top: 1750px;
+    left: 10px;
+    width: 70%;
+}
+
+.fruit3image {
+    position: absolute;
+    top: 1700px;
+    right: 10px;
+}
+
+.fruit3button {
+    position: absolute;
+    top: 1850px;
+    left: 400px;
+
+    height: 50px;
+    width: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+}
+
+.fruit3button a {
+    text-decoration: none;
+    color: white;
+}
+
+.client {
+    position: absolute;
+    top: 2000px;
+    left: 350px;
+    text-align: center;
+}
+
+.clientimg {
+    position: absolute;
+    top: 2100px;
+    left: 420px;
+}
+
+.clientpara {
+    position: absolute;
+    top: 2400px;
+    left: 0px;
+    text-align: center;
+}
+
+/* Form */
+#form h2 {
+    position: absolute;
+    top: 2510px;
+    left: 70px;
+}
+
+.name {
+    position: absolute;
+    top: 2600px;
+    left: 60px;
+}
+
+.number {
+    position: absolute;
+    top: 2650px;
+    left: 60px;
+}
+
+.email {
+    position: absolute;
+    top: 2690px;
+    left: 60px;
+}
+
+.message {
+    position: absolute;
+    top: 2730px;
+    left: 60px;
+}
+
+.formbutton {
+    position: absolute;
+    top: 2770px;
+    left: 70px;
+    height: 50px;
+    width: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 15px;
+    background-color: black;
+}
+
+.formbutton a {
+    text-decoration: none;
+    color: white;
+}
+
+.formimg {
+    position: absolute;
+    top: 2510px;
+    right: 5px;
+}
+
+/* Footer */
+
+.list1 {
+    position: absolute;
+    top: 3000px;
+    left: 10px;
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.list2 {
+    position: absolute;
+    top: 3000px;
+    left: 250px;
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.list3 {
+    position: absolute;
+    top: 3000px;
+    left: 500px;
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.icon {
+    position: absolute;
+    top: 3000px;
+    left: 900px;
+}
+
+.icon2 {
+    position: absolute;
+    top: 3050px;
+    left: 880px;
+}
+
+.icon2 i {
+    font-size: 30px
+}
+
+.icon3 {
+    position: absolute;
+    top: 3080px;
+    left: 860px;
+    text-align: center;
+}
+
+.icon4 {
+    position: absolute;
+    left: 900px;
+    top: 3190px;
+    border: 2px grey solid;
+    height: 20px;
+    text-align: center;
+    padding: 15px;
+    background-color: orange;
+}
+
+.icon4 a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer p {
+    position: absolute;
+    top: 3290px;
+    left: 450px;
+}
+
+.footer {
+    background-color: antiquewhite;
+}
