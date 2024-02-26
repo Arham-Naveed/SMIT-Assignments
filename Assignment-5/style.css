@@ -1,31 +1,155 @@
 /* Navbar */
 body {
-    background-color:rgb(11, 11, 38) ;
+    background-color: rgb(1, 1, 47)
+    ;
+    
+    
 }
+
+                            /* Right Nav */
+.rightnav{
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    position: fixed;
+    font-size: 25px;
+    margin-top: 320px;
+    margin-left: 42px;
+    color: white;
+
+
+     /* unvisited link */
+  a:link {
+    color: white;
+  }
+  
+  /* visited link */
+   a:visited {
+    color: white;
+  }
+   
+  /* mouse over link */
+  a:hover {
+    color: cyan;
+  }
+   */
+   /* selected link */
+  a:active {
+    color: white; 
+  }
+}
+.rightnav2{
+    position: absolute;
+    position: fixed;
+    margin-top: 510px;
+}
+
+
+/* Left Nav */
+.leftnav{ 
+
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    position: fixed;
+    margin-left: 1105px;
+    margin-top: 330px;
+    transform: rotate(90deg);
+
+
+         /* unvisited link */
+  a:link {
+    color: white;
+  }
+  
+  /* visited link */
+   a:visited {
+    color: white;
+  }
+   
+  /* mouse over link */
+  a:hover {
+    color: cyan;
+  }
+   */
+   /* selected link */
+  a:active {
+    color: white; 
+  }
+    
+    
+
+}
+.leftnav a{ 
+    text-decoration: none;
+    color: white;
+    
+}
+
+.leftnav2{ 
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    position: fixed;
+    margin-left: 1150px;
+    margin-top: 510px;
+    
+}
+
+
+
 
 .navbar li {
     display: inline-block;
     list-style: none;
     padding: 20px 20px 0px 30px;
 
+  /* unvisited link */
+  a:link {
+    color: white;
+  }
+  
+  /* visited link */
+   a:visited {
+    color: white;
+  }
+   
+  /* mouse over link */
+  a:hover {
+    color: cyan;
+  }
+   */
+   /* selected link */
+  a:active {
+    color: white; 
+  }
 
 }
+
 
 
 .navbar li a {
     text-decoration: none;
     color: white;
+
+   
 }
 
 .navbar li a::first-letter {
-    color: rgb(52, 200, 52); font-size: medium;
+    color: aquamarine; font-size: medium;
 }
 .navbar button{ 
-    border: 2px green solid;
+    border: 2px gb(  0,197,180) solid;
     padding: 10px;
-    background-color:rgb(11, 11, 38) ;
-    color: rgb(20, 150, 40) ;
+    background-color: rgb(11, 11, 38);
+    color: aquamarine;
 }
+
+
+
+
+
 
 .header {
     display: flex;
@@ -35,16 +159,174 @@ body {
 
 .header img {
     margin-right: auto;
+    height: 60px;
+    padding-top: 10px;
+    padding-left: 20px;
 }
 
+
+.main1{
+    display: flex;
+    flex-direction:column;
+    margin-top: 80px;
+    margin-left: 150px;
+}
 
 
 .main1 span {
-    color: green;
+    color: aquamarine;
+   font-size: 25px;
+   
 }
 main h1{ 
     color: white;
+    font-size: 70px;
+    margin-top:5px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.main1{ 
-    
+.main1 button{
+    color: aquamarine;
+   border: 2px solid aquamarine;
+   padding: 20px 20px;
+   margin-top: 30px;
+   background-color:rgb(1, 1, 47);
 } 
+.p{
+    color: white;
+}
+
+/* 0.1About */
+.about2{
+    color: white;
+    font-size: 20px;
+    margin-top:100px;
+    margin-left: 150px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   display: inline-block;
+   width: 40%;
+
+}
+
+.about1{
+    color: aquamarine;
+   
+}
+
+
+.border{
+    border-bottom: 1px solid grey;
+    display: inline-block;
+    width: 20%;
+   
+}
+
+.aboutmain1{
+    display: flex;
+justify-content: start;
+width: 50%;
+flex-direction: column;
+color: white;
+box-sizing: border-box;
+margin-top: 50px;
+margin-left: 150px;
+}
+.aboutmainpic{
+  display: flex;
+  height: 200px;
+  width: 30%;
+  
+   
+ 
+}
+.aboutmain{
+  display: flex;
+align-items: center;
+justify-content: space-between;
+  
+}
+
+
+
+
+.arrow{ color: cyan;}
+.list1 li{
+   list-style: none;
+   color: white;
+
+    
+}
+
+.list2 li{
+ list-style: none;
+   color: white;
+   
+  
+}
+.list1{
+    
+
+    
+}
+.list2{
+    
+}
+.lists{
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  padding-left: 30px;
+}
+
+.worked{
+  display: flex
+  ;justify-content: space-around;
+  margin-top: 100px;
+  
+
+}
+.work1 .span{color: cyan;
+  font-size: 20px;padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+
+}
+
+.work1{
+  display: flex;
+  color: white;
+  font-size: 25px ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  padding-left: 105px;
+  width: 40%;
+}
+.workborder{
+  border-bottom: 1px solid grey;
+ 
+  width: 25%;
+  margin-right: 250px;
+}
+
+
+.workmain{
+  width: 20%;
+  
+  
+}
+.workmain1{
+  border: 1px solid grey; transform: rotate(90deg);
+  width: 100px;
+  margin-left: 70px;
+  margin-top: 110px;
+
+
+}
+.workmain2{
+  display: flex;
+  flex-direction: column;
+align-items: start;
+  margin-left: 130px;
+  color: white;
+  
+
+}
