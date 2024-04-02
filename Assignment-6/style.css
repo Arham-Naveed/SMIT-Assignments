@@ -1,0 +1,105 @@
+.footer2 {
+    color: white;
+
+}
+
+.footer {
+    color: white;
+    background-color: rgb(2, 2, 35);
+
+
+}
+
+.horizontalproduct {
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+  position: absolute;
+
+
+}
+
+.searchbar {
+    height: 50px;
+    width: 500px;
+    margin: 0 10px;
+}
+
+.deliver {
+    font-size: 14px;
+    height: 50px;
+    margin: 0 10px;
+    padding: 0 10px;
+}
+
+.dropdown {
+    font-size: 15px;
+    height: 50px;
+    margin: 0 10px;
+
+
+}
+
+.language {
+    padding: 20px;
+}
+
+
+.hero1 {
+    background-image: url('Images/small.jpg');
+    background-size: ;
+    color: #fff;
+    text-align: center;
+    padding: 200px 0;
+    background-repeat: repeat-x
+}
+
+.product {
+
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product h4 {
+    margin-top: 10px;
+}
+
+
+
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #007bff;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#back-to-top:hover {
+    background: #0056b3;
+}
